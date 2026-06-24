@@ -1,0 +1,18 @@
+# --- сырые данные и тяжёлые промежуточные объекты НЕ коммитим ---
+data/raw/**
+data/interim/**
+data/final/**
+# но сохраняем структуру папок
+!**/.gitkeep
+
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# системное
+.DS_Store
+Thumbs.db
+logs/*.log
